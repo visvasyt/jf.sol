@@ -30,7 +30,7 @@ end
 
 function Library:CreateWindow(title, color)
     title = title or "Bracket Lib V2"
-    color = color and Library:GetColor(color) or Color3.fromRGB(19, 119, 255)
+    color = color and Library:GetColor(color) or Color3.fromRGB(225, 0, 255)
 
     -- Window Main
     local WinTypes = {}
@@ -65,7 +65,7 @@ function Library:CreateWindow(title, color)
 
     outlinecore.Name = "outlinecore"
     outlinecore.Parent = core
-    outlinecore.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+    outlinecore.BackgroundColor3 = Color3.fromRGB(25, 0, 25)
     outlinecore.BorderSizePixel = 0
     outlinecore.Position = UDim2.new(0, 1, 0, 1)
     outlinecore.Size = UDim2.new(0, 538, 0, 529)
@@ -107,7 +107,7 @@ function Library:CreateWindow(title, color)
     tabbar.Name = "tabbar"
     tabbar.Parent = inlinecore
     tabbar.BackgroundColor3 = Color3.fromRGB(225, 0, 225)
-    tabbar.BorderColor3 = Color3.fromRGB(8, 8, 8)
+    tabbar.BorderColor3 = Color3.fromRGB(8, 0, 8)
     tabbar.Size = UDim2.new(0, 521, 0, 25)
 
     UIListLayout.Parent = tabbar
@@ -202,7 +202,7 @@ function Library:CreateWindow(title, color)
         tab.Name = "tab"
         tab.Parent = tabbar
         tab.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
-        tab.BorderColor3 = Color3.fromRGB(35, 35, 35)
+        tab.BorderColor3 = Color3.fromRGB(35, 0, 35)
         tab.BorderSizePixel = 0
         tab.Size = UDim2.new(0, tabbar.AbsoluteSize.X / (#tabbar:GetChildren() - 1), 0, 25)
         tab.Font = Enum.Font.SourceSans
@@ -214,7 +214,7 @@ function Library:CreateWindow(title, color)
         
         title.Name = "title"
         title.Parent = tab
-        title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        title.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
         title.BackgroundTransparency = 1.000
         title.Size = UDim2.new(1, 0, 1, 0)
         title.Font = Enum.Font.SourceSans
