@@ -106,7 +106,7 @@ function Library:CreateWindow(title, color)
 
     tabbar.Name = "tabbar"
     tabbar.Parent = inlinecore
-    tabbar.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+    tabbar.BackgroundColor3 = Color3.fromRGB(225, 0, 225)
     tabbar.BorderColor3 = Color3.fromRGB(8, 8, 8)
     tabbar.Size = UDim2.new(0, 521, 0, 25)
 
